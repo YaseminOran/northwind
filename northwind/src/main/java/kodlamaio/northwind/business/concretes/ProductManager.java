@@ -42,25 +42,26 @@ public class ProductManager implements ProductService{
 				"Data Listelendi");
 	}
 	@Override
-	public DataResult<Product> getByProductNameAndCategoryId(String productName, int categoryId) {
+	public DataResult<Product> getByProductNameAndCategory(String productName, int categoryId) {
 		
 		
 		//business codes
 		return new SuccessDataResult <Product> 
-		(this.productDao.getByProductNameAndCategoryId(productName,categoryId),
+		(this.productDao.getByProductNameAndCategory(productName,categoryId),
 				"Data Listelendi");
 	}
 	@Override
-	public DataResult<List<Product>> getByProductNameOrCategoryId(String productName, int categoryId) {
+	public DataResult<List<Product>> getByProductNameOrCategory(String productName, int categoryId) {
 
 		return new SuccessDataResult<List<Product>>
-		(this.productDao.getByProductNameOrCategoryId(productName,categoryId),
+		(this.productDao.getByProductNameOrCategory(productName,categoryId),
 				"Data Listelendi");
 	}
+
 	@Override
-	public DataResult<List<Product>> getByCategoryIdIn(List<Integer> categories) {
+	public DataResult<List<Product>> getByCategoryIn (List<Integer> categories) {
 		return new SuccessDataResult<List<Product>>
-		(this.productDao.getByCategoryIdIn(categories),
+		(this.productDao.getByCategoryIn(categories),
 				"Data Listelendi");
 	}
 	@Override
@@ -82,4 +83,5 @@ public class ProductManager implements ProductService{
 		(this.productDao.getByProductNameStartsWith(productName),
 				"Data Listelendi");
 	}
+	
 }

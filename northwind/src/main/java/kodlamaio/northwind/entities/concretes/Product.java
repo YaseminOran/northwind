@@ -22,7 +22,7 @@ public class Product {
 	@Column(name="product_id")
 	private int id;
 	
-	//@Column(name="category_id") aşağıda joinledik gerek yok
+	//@Column(name="category_id") 
 	//private int categoryId;
 	
 	@Column(name="product_name")

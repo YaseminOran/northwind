@@ -44,8 +44,8 @@
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="727"/>
-		<item key="DIALOG_Y_ORIGIN" value="92"/>
+		<item key="DIALOG_X_ORIGIN" value="720"/>
+		<item key="DIALOG_Y_ORIGIN" value="68"/>
 		<item key="DIALOG_WIDTH" value="560"/>
 		<item key="DIALOG_HEIGHT" value="636"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>

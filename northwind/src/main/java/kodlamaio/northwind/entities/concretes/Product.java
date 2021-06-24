@@ -56,6 +56,54 @@ public class Product {
 		this.quantityPerUnit = quantityPerUnit;
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public double getUnitPrice() {
+		return unitPrice;
+	}
+
+	public void setUnitPrice(double unitPrice) {
+		this.unitPrice = unitPrice;
+	}
+
+	public short getUnitsInStock() {
+		return unitsInStock;
+	}
+
+	public void setUnitsInStock(short unitsInStock) {
+		this.unitsInStock = unitsInStock;
+	}
+
+	public String getQuantityPerUnit() {
+		return quantityPerUnit;
+	}
+
+	public void setQuantityPerUnit(String quantityPerUnit) {
+		this.quantityPerUnit = quantityPerUnit;
+	}
+
+	public Category getCategory() {
+		return category;
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
 
 	
 

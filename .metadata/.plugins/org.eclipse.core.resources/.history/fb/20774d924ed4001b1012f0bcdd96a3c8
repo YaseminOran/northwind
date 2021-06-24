@@ -1,0 +1,11 @@
+package kodlamaio.northwind.entities.dtos;
+
+
+@Data
+public class ProductWithCategoryDto {
+	
+	private String productName;
+	private int id;
+	private String CategoryName;
+
+}
